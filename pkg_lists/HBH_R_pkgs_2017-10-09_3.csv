@@ -165,6 +165,7 @@ clipr,/Users/hamedbh/Library/R/3.x/library,0.3.3,NA,NA,utils,NA,"rstudioapi (>= 
 cluster,/Users/hamedbh/Library/R/3.x/library,2.0.6,recommended,R (>= 3.0.1),"graphics, grDevices, stats, utils",NA,MASS,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.2
 coda,/usr/lib/R/site-library,0.18-1,NA,R (>= 2.14.0),lattice,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.2.2
 codetools,/Users/hamedbh/Library/R/3.x/library,0.2-15,recommended,R (>= 2.1),NA,NA,NA,NA,GPL,NA,NA,NA,NA,no,3.3.3
+colformat,/home/rstudio/packages,0.0.0.9000,NA,NA,crayon,NA,testthat,NA,GPL-3,NA,NA,NA,NA,NA,3.4.0
 colorspace,/usr/local/lib/R/site-library,1.2-6,NA,"R (>= 2.13.0), methods",graphics,NA,"KernSmooth, MASS, kernlab, mvtnorm, vcd, dichromat, tcltk",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,3.3.0
 colourpicker,/Users/hamedbh/Library/R/3.x/library,1.0,NA,R (>= 3.1.0),"ggplot2, htmltools, htmlwidgets (>= 0.7), jsonlite, miniUI (>=
 0.1.1), shiny (>= 0.11.1), shinyjs, utils",NA,"knitr (>= 1.7), rmarkdown, rstudioapi (>= 0.5)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.2
