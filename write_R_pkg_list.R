@@ -16,6 +16,8 @@ merged_pkgs <- bound_pkgs[bound_pkgs[,
            ]
 
 file.rename("HBH_R_pkgs.csv", paste0("./pkg_lists/HBH_R_pkgs_", 
-                                     Sys.Date(), 
+                                     Sys.Date(),
+                                     "_",
+                                     length(list.files("pkg_lists/")) + 1, 
                                      ".csv"))
 write_csv(merged_pkgs, "HBH_R_pkgs.csv")
