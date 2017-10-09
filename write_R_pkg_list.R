@@ -6,6 +6,10 @@ new_pkgs <- data.table(installed.packages())
 # setorder(new_pkgs, Package, Version)
 # setkey(new_pkgs, Package)
 
+ifelse("Linux" %in% Sys.info(), 
+       setwd("/home/rstudio/tools/"), 
+       setwd("~/github/tools/"))
+       
 ref_pkgs <- fread("HBH_R_pkgs.csv")
 
 bound_pkgs <- rbindlist(list(new_pkgs, ref_pkgs))
