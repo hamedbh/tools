@@ -648,7 +648,6 @@ triebeard,/Users/hamedbh/Library/R/3.x/library,0.3.0,NA,NA,Rcpp,Rcpp,"knitr, rma
 tseries,/Users/hamedbh/Library/R/3.x/library,0.10-42,NA,R (>= 2.10.0),"graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4.9)",NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.1
 tufte,/Users/hamedbh/Library/R/3.x/library,0.2,NA,NA,"htmltools, knitr (>= 1.12), rmarkdown",NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.3.0
 twitteR,/Users/hamedbh/Library/R/3.x/library,1.1.9,NA,R (>= 2.12.0),"methods, bit64, rjson, DBI (>= 0.3.1), httr (>= 1.0.0)",NA,"RSQLite, RMySQL",NA,Artistic-2.0,NA,NA,NA,NA,no,3.3.0
-udpipe,/Users/hamedbh/Library/R/3.x/library,0.1.1,NA,R (>= 2.10),"Rcpp (>= 0.11.5), data.table (>= 1.9.6)",Rcpp,knitr,NA,MPL-2.0,NA,NA,NA,NA,yes,3.4.2
 updateR,/Users/hamedbh/Library/R/3.x/library,0.1,NA,NA,"
 dplyr,
 rvest,
