@@ -1,9 +1,14 @@
-C=gcc-6
-CXX=g++-6
-CXX1X = g++-6
+CC=/usr/local/bin/gcc-6
+CXX=/usr/local/bin/g++-6
+CXX1X=/usr/local/bin/g++-6
+CXX11=/usr/local/bin/g++-6
+SHLIB_CXXLD=/usr/local/bin/g++-6
+FC=/usr/local/bin/gfortran-6
+F77=/usr/local/bin/gfortran-6
+MAKE=make -j8
 
-SHLIB_OPENMP_CFLAGS= -fopenmp
-SHLIB_OPENMP_CXXFLAGS= -fopenmp
-SHLIB_OPENMP_FCFLAGS= -fopenmp
-SHLIB_OPENMP_FFLAGS= -fopenmp
+SHLIB_OPENMP_CFLAGS=-fopenmp
+SHLIB_OPENMP_CXXFLAGS=-fopenmp
+SHLIB_OPENMP_FCFLAGS=-fopenmp
+SHLIB_OPENMP_FFLAGS=-fopenmp
 
