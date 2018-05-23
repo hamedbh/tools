@@ -1,9 +1,9 @@
-CC=gcc-7
-CXX=g++-7
-CXX1X=g++-7
-CXX11=g++-7
-CXX14=g++-7
-CXX17=g++-7
+CC=gcc-8
+CXX=g++-8
+CXX1X=g++-8
+CXX11=g++-8
+CXX14=g++-8
+CXX17=g++-8
 
 SHLIB_OPENMP_CFLAGS= -fopenmp
 SHLIB_OPENMP_CXXFLAGS= -fopenmp

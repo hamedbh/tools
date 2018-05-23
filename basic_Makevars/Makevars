@@ -1,8 +1,8 @@
 CC=ccache clang
 CXX=ccache clang++
 SHLIB_CXXLD=ccache clang++
-FC=gfortran-7
-F77=gfortran-7
+FC=gfortran-8
+F77=gfortran-8
 MAKE=make -j8
 PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig:/usr/local/opt/icu4c/lib/pkgconfig
 PKG_LIBS += -L/usr/local/opt/icu4c/lib -L/usr/local/lib
