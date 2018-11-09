@@ -1,9 +1,9 @@
-CC=gcc-7
-CXX=g++-7
-CXX1X=g++-7
-CXX11=g++-7
-CXX14=g++-7
-CXX17=g++-7
+CC=/usr/local/Cellar/gcc@7/7.3.0/bin/gcc-7
+CXX=/usr/local/Cellar/gcc@7/7.3.0/bin/g++-7
+SHLIB_CXXLD=/usr/local/Cellar/gcc@7/7.3.0/bin/g++-7
+FC=/usr/local/Cellar/gcc@7/7.3.0/bin/gfortran-7
+F77=/usr/local/Cellar/gcc@7/7.3.0/bin/gfortran-7
+MAKE=make -j8
 
 SHLIB_OPENMP_CFLAGS= -fopenmp
 SHLIB_OPENMP_CXXFLAGS= -fopenmp

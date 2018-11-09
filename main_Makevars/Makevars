@@ -6,8 +6,8 @@ CXXFLAGS=-g -O3 -Wall -pedantic -std=c++11 -mtune=native -pipe
 LDFLAGS=-L/usr/local/opt/gettext/lib -L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib
 CPPFLAGS=-I/usr/local/opt/gettext/include -I/usr/local/opt/llvm/include
 SHLIB_CXXLD=ccache clang++
-FC=gfortran-7
-F77=gfortran-7
+FC=gfortran-8
+F77=gfortran-8
 MAKE=make -j8
 PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig:/usr/local/opt/icu4c/lib/pkgconfig
 PKG_LIBS += -L/usr/local/opt/icu4c/lib -L/usr/local/lib
