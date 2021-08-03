@@ -28,7 +28,9 @@ install.packages("bayesplot")
 install.packages("brms")
 install.packages("rstanarm")
 
-# Install tidyverse and tidymodels ----------------------------------------
+
+# Install tidyverse and related stuff -------------------------------------
 
 install.packages("tidyverse")
 install.packages("tidymodels")
+install.packages("bookdown")
