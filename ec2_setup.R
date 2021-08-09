@@ -16,14 +16,19 @@ example(stan_model, package = "rstan", run.dontrun = TRUE)
 
 # Install cmdstanr --------------------------------------------------------
 
-# we recommend running this is a fresh R session or restarting your current session
+# From the docs: we recommend running this is a fresh R session or restarting
+# your current session
 install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
+# Now check that the toolchain is OK
+cmdstanr::check_cmdstan_toolchain()
 
 # Install rethinking and some other bayesian stuff ------------------------
 
 install.packages("remotes")
 install.packages(c("coda", "mvtnorm", "devtools", "loo", "dagitty"))
 remotes::install_github("rmcelreath/rethinking")
+
+# install these in a separate call, not with rethinking
 install.packages("bayesplot")
 install.packages("brms")
 install.packages("rstanarm")
